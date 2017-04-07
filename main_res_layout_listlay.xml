@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+
+
+    >
+
+    <FrameLayout
+        android:layout_width="126dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:background="@drawable/lunch1"
+            android:layout_gravity="left|center_vertical" />
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity:0"
+            android:paddingTop="10dp"
+            android:id="@+id/itemquqntity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/itemprice" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="Add"
+            android:id="@+id/cartbuttn"
+            android:background="@drawable/xml_drawable"
+            android:layout_gravity="right" />
+
+        <RatingBar
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:numStars="3"
+            android:id="@+id/ratingBar" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

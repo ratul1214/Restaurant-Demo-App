@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="androva.com.tblist.Menulist"
+    tools:showIn="@layout/app_bar_menulist">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton"
+            android:background="@drawable/button1" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/but2"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/but3"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton4"
+            android:background="@drawable/but4"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
